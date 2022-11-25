@@ -1,6 +1,9 @@
 package org.example;
 
-public class Rectangle extends Shape{
+public class Rectangle extends Shape implements CarryAble {
+    public void carry() {
+        System.out.println("I am carry rectangle");
+    }
     private int sideA;
     private int sideB;
 
@@ -21,7 +24,4 @@ public class Rectangle extends Shape{
     public String outingOfShape() {
         return "Rectangle";
     }
-
-
-
 }

@@ -1,6 +1,9 @@
 package org.example;
 
-public class Triangle extends Shape {
+public class Triangle extends Shape implements CarryAble {
+    public void carry() {
+        System.out.println("I am carry triangle");
+    }
     private int side1;
     private int side2;
     private double corner;

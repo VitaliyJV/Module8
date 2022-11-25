@@ -1,6 +1,10 @@
 package org.example;
 
-public class Ellipse extends Shape{
+public class Ellipse extends Shape implements RollAble {
+
+    public void roll() {
+        System.out.println("I rolling an ellipse");
+    }
     private double R1;
     private double R2;
     private double Exc;
