@@ -1,5 +1,7 @@
 package org.example;
 
 interface RollAble {
-    void roll();
+    default String roll() {
+        return "Roll some";
+    }
 }

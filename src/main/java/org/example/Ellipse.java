@@ -1,9 +1,9 @@
 package org.example;
 
 public class Ellipse implements Shape, RollAble {
-
-    public void roll() {
-        System.out.println("I rolling an ellipse");
+    @Override
+    public String roll() {
+        return "I am rolling ellipse";
     }
     private double R1;
     private double R2;

@@ -1,8 +1,9 @@
 package org.example;
 
 public class Triangle implements Shape, CarryAble {
-    public void carry() {
-        System.out.println("I am carry triangle");
+    @Override
+    public String carry() {
+        return  "I am carrying triangle";
     }
     private int side1;
     private int side2;

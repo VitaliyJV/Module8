@@ -1,8 +1,9 @@
 package org.example;
 
 public class Rectangle implements Shape, CarryAble {
-    public void carry() {
-        System.out.println("I am carry rectangle");
+    @Override
+    public String carry() {
+        return "I am carrying rectangle";
     }
     private int sideA;
     private int sideB;

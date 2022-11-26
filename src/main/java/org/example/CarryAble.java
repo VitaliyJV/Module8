@@ -1,5 +1,7 @@
 package org.example;
 
 interface CarryAble {
-    void carry();
+    default String carry() {
+        return "Carry something";
+    }
 }

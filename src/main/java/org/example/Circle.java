@@ -1,8 +1,8 @@
 package org.example;
 
 public class Circle implements Shape, RollAble {
-    public void roll() {
-        System.out.println("I rolling a circle");
+    public String roll() {
+        return  "I am rolling circle";
     }
     private double radius;
     public void setRadius(double radius) {

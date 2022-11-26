@@ -1,7 +1,7 @@
 package org.example;
 
 public interface Shape {
-    public default String outingOfShape() {
+    default String outingOfShape() {
         return "This is basic Shape";
     }
 }
