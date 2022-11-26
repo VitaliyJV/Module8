@@ -1,9 +1,10 @@
 package org.example;
 
-public class ShapePrinter {
-    public void getShapeName(Shape shape) {
+import static org.example.Test.a;
 
+public class ShapePrinter {
+        public void getShapeName(Shape shape) {
         String outing = shape.outingOfShape();
-        System.out.println(i + ". " + outing);
+        System.out.println(a + ". " + outing);
     }
 }

@@ -5,15 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54b8e01a-46ef-4b43-9941-437a7d0e252b" name="Changes" comment="Commit 1">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/CarryAble.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Quad.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/RollAble.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ShapePrinter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Circle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Ellipse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Ellipse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Quad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Quad.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Shape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ShapePrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ShapePrinter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Triangle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

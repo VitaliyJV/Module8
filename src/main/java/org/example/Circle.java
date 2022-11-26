@@ -1,6 +1,6 @@
 package org.example;
 
-public class Circle extends Shape implements RollAble {
+public class Circle implements Shape, RollAble {
     public void roll() {
         System.out.println("I rolling a circle");
     }

@@ -1,20 +1,20 @@
 package org.example;
 
 class Test {
-
-    public static void main(String[] args) {
-
+    public static int a;
+        public static void main(String[] args) {
             Shape shape = new Rectangle();
-            ShapePrinter printer=new ShapePrinter();
+            ShapePrinter printer = new ShapePrinter(); a++;
             printer.getShapeName(shape);
-            Shape shape1 = new Quad();
+            Quad shape1 = new Quad(); a++;
             printer.getShapeName(shape1);
-            Shape shape2 = new Triangle();
+            Shape shape2 = new Triangle(); a++;
             printer.getShapeName(shape2);
-
-
-
-    }
+            Shape shape3 = new Circle(); a++;
+            printer.getShapeName(shape3);
+            Shape shape4 = new Ellipse(); a++;
+            printer.getShapeName(shape4);
+            }
 }
 
 
